@@ -5,7 +5,7 @@ export default {
   title: 'Example/CorewebWc'
 };
 
-export const Simple = html`<coreweb-wc></coreweb-wc>`;
+export const Simple = (args) => html`<coreweb-wc></coreweb-wc>`;
 Simple.args = {
   color: 'red'
 };
